@@ -1,0 +1,151 @@
+/*----------------------------------------*/
+
+/*  Main CSS
+/*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic');
+.no-padding {
+	padding: 0!important;
+}
+:focus {
+    outline: none;
+}
+.no-margin {
+	margin: 0!important
+}
+
+.mb-6 {
+	margin-bottom: 4rem!important;
+}
+
+.mb-7 {
+	margin-bottom: 7rem!important;
+}
+
+.pr-15 {
+	padding-right: 15px!important;
+}
+
+.pl-15 {
+	padding-left: 15px!important;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button {
+	outline: none!important;
+}
+
+input:focus,
+input:hover,
+input:active {
+	outline: none !important;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+button:focus,
+button:hover,
+button:active,
+a:active,
+a:hover {
+	outline: 0 none;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0
+}
+
+.card-title {
+	margin-bottom: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #434656;
+}
+
+/*----------------------------------------*/
+/* header CSS
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+
+/*content CSS
+/*----------------------------------------*/
+
+.todoDone {
+	text-decoration: line-through;
+	font-style: italic;
+	color: gray;
+	
+}
+
+.btn.btn-danger,
+.btn.btn-primary {
+	margin: 0 10px;
+	width: 100px;
+}
+
+#selectAllAction {
+	margin-right: 20px;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+}
+
+.form-check-input {
+	margin-top: 0;
+}
+
+#actionPanel1 {
+	margin-bottom: 20px;
+}
+/*----------------------------------------*/
+
+/*footer CSS
+/*----------------------------------------*/
+
+
+
+/*----------------------------------------*/
+
+/*media CSS
+/*----------------------------------------*/
+
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 991px) {
+	
+
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 567px) {
+	
+
+}
+
